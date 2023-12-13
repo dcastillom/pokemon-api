@@ -15,7 +15,8 @@ const urls = {
  * @returns {string} url with params.
  * @example endpointWithParams('endpoint/{{id}}', { id: 123 }) // endpoint/123
  */
-const endpointWithParams = (endpoint: String, params: any) => {
+// @ts-ignore
+const endpointWithParams = (endpoint: string, params) => {
   let url = endpoint
   Object.keys(params).forEach((p) => (url = url.replace(`{{${p}}}`, params[p])))
   return url
