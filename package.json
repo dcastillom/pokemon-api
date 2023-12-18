@@ -5,6 +5,7 @@
   "repository": "https://github.com/dcastillom/pokemon-api.git",
   "author": "Daniel Castillo <d.castillo.marfull@accenture.com>",
   "license": "MIT",
+  "description": "Api using Node and Express.",
   "devDependencies": {
     "@commitlint/cli": "^18.4.3",
     "@commitlint/config-conventional": "^18.4.3",
